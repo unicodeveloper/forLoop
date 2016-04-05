@@ -1,0 +1,21 @@
+{
+  "name": "forLoop",
+  "scripts": {
+  },
+  "env": {
+    "APP_ENV": {
+      "required": true
+    },
+    "APP_KEY": {
+      "required": true
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-php"
+    }
+  ]
+}
